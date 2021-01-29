@@ -1,0 +1,133 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    
+    text-align: center;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    z-index: 15;
+    background-color: black;
+    top: 0;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexboxitems {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+.flexlocation {
+    display: flex;
+    margin: 15px auto;
+    justify-content: center;
+}
+
+
+/* Nav Bar*/
+.logo img{
+    height: 50px;
+    padding-left: 10px; 
+    width: auto;
+}
+
+nav {
+    display: block;
+    margin-right: 10px;
+}
+
+nav span {
+    display: inline-block;
+    padding: 15px 15px;
+    margin: auto;
+}
+
+a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+/* Body Content*/
+.content {
+    margin-top: 0px;
+    padding-top: 70px;
+}
+
+/* Mission */
+.banner {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+}
+
+.message {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+/*Tea of Month */
+#featured {
+    width: 1000px;
+    margin: auto;
+}
+
+.selections {
+    margin-bottom: 10px;
+}
+
+.selections img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.selections h4 {
+    margin: 0px;
+}
+
+/*location*/
+#locations {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    height: 550px;
+    width: 1200px;
+    margin: auto;
+}
+
+.square {
+    background-color: black;
+    text-align: center;
+    margin: auto 20px;
+    width: 300px;
+    padding-bottom: 10px;
+}
+
+/*Footer*/
+.contact {
+    height: 200px;
+    text-align: center;
+}
+
+.copy {
+    text-align: left;
+    padding-left: 20px; 
+}
+
